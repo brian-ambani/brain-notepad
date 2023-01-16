@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\firstController;
+use App\Http\Controllers\nameController;
+use App\Http\Controllers\PagesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,15 +15,10 @@ use App\Http\Controllers\firstController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/* Route::get('/', function () { */
+/*     return view('hello'); */
+/* }); */
 
+Route::get('/', [PagesController::class, 'index']);
 
-Route::view('/about', "about");
-
-Route::view('/contact', "contact");
-
-Route::view('/another', "another");
-
-Route::get('/users', [firstController::class,'first']);
+Route::get('/about', [PagesController::class, 'about']);

@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact us</title>
+    <title>Laravel</title>
 </head>
 <body>
-    <h1>This page contains my contact details</h1>
-    <p>my contacts will appear here</p>
-    <a href="/">Home</a>
+    <h1>Welcomt to laravel</h1>
+    <p>This is the laravel application from the my laravel practice project</p>
 </body>
 </html>
