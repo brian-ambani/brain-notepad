@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\firstController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +22,7 @@ Route::get('/', function () {
 Route::view('/about', "about");
 
 Route::view('/contact', "contact");
+
+Route::view('/another', "another");
+
+Route::get('/users', [firstController::class,'first']);

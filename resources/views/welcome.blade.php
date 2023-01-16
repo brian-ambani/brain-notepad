@@ -10,6 +10,7 @@
     <h1>This is the homepage for the Notepad</h1>
     <p>Your notes will be here in future</p>
     <a href="/about">About</a><br><br>
-    <a href="/contact">Contact us</a>
+    <a href="/contact">Contact us</a><br><br>
+    <a href="/another">Another view</a>
 </body>
 </html>
