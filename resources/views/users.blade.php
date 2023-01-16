@@ -9,5 +9,7 @@
 <body>
     <h1>View from controller</h1>
     <p>This is a view called from the controllers</p>
+    <p>This is the users page</p><br><br>
+    <a href="/">Home</a>
 </body>
 </html>

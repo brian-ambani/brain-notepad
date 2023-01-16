@@ -11,6 +11,7 @@
     <p>Your notes will be here in future</p>
     <a href="/about">About</a><br><br>
     <a href="/contact">Contact us</a><br><br>
-    <a href="/another">Another view</a>
+    <a href="/another">Another view</a><br><br>
+    <a href="/users">Users page</a>
 </body>
 </html>
