@@ -7,6 +7,7 @@
     <title>Laravel</title>
 </head>
 <body>
-    <h1>This is the about page</h1>
+    <h1>About</h1>
+    <p>This is the about page</p>
 </body>
 </html>

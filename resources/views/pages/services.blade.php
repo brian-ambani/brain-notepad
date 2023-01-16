@@ -7,7 +7,7 @@
     <title>Laravel</title>
 </head>
 <body>
-    <h1>Welcome to laravel</h1>
-    <p>This is the laravel application from the my laravel practice project</p>
+    <h1>Services</h1>
+    <p>This is the services page</p>
 </body>
 </html>
