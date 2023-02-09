@@ -19,7 +19,7 @@ use App\Http\Controllers\PagesController;
 /*     return view('hello'); */
 /* }); */
 
-Route::get('/', [PagesController::class, 'index']);
+Route::get('/home', [PagesController::class, 'index']);
 
 Route::get('/about', [PagesController::class, 'about']);
 
